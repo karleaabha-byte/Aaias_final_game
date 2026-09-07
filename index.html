@@ -347,7 +347,8 @@
   @keyframes modalIn{ from{ opacity:0; transform:translateY(18px) scale(0.98); } to{ opacity:1; transform:translateY(0) scale(1);} }
   .room-exit-hint{position:absolute;top:17px;right:62px;font-family:var(--mono);font-size:9px;letter-spacing:.08em;color:var(--text-faint);pointer-events:none;}
   .modal-close{ position:absolute; top:12px; right:14px; background:rgba(0,0,0,0.35); border:1px solid rgba(255,255,255,0.12); color:rgba(255,255,255,0.82); font-size:23px; cursor:pointer; line-height:1; width:38px; height:38px; border-radius:50%; z-index:10; display:flex; align-items:center; justify-content:center; transition:background 0.15s ease, border-color 0.15s ease, transform 0.15s ease; }
-  .modal-close.dark{ color:var(--text-dim); background:rgba(0,0,0,0.42); }\n.modal-close:hover{ background:rgba(201,79,54,0.9); border-color:var(--rust-bright); color:#fff; transform:scale(1.05); }
+  .modal-close.dark{ color:var(--text-dim); background:rgba(0,0,0,0.42); }
+  .modal-close:hover{ background:rgba(201,79,54,0.9); border-color:var(--rust-bright); color:#fff; transform:scale(1.05); }
 
   /* terminal styled modal (digital systems) */
   .terminal{
@@ -418,7 +419,7 @@
   .end-wrap .sub{ font-family:var(--mono); font-size:14px; color:var(--text-dim); letter-spacing:0.1em; margin-bottom:26px; }
   .end-report{ text-align:left; max-width:560px; margin:0 auto; }
   .stat-line{ display:flex; justify-content:space-between; font-family:var(--mono); font-size:15px; padding:7px 0; border-bottom:1px dashed var(--line); color:var(--text-dim); }
-  .stat-line b{ color:var(--text); }
+  .stat-line b{ color:var(--text-dim); }
 
   footer.note{ margin-top:20px; text-align:center; font-family:var(--mono); font-size:12px; color:var(--text-faint); letter-spacing:0.05em; }
 
