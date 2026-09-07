@@ -185,7 +185,12 @@ class GameState:
         digits = "".join(ch for ch in str(guess) if ch.isdigit())
 
         if digits != case.CORRECT_PIN:
+            self.security_mode = "EASY"
+            self.security_challenge_active = False
+            self.security_challenge_complete = True
+            self.security_failed = True
             self._log(f"Incorrect PIN attempt #{self.pin_attempts}.")
+            self._log("Security challenge failed; security is marked FAILED.")
             return False, "Incorrect PIN."
 
         self.pin_cracked = True
