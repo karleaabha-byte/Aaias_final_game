@@ -1,6 +1,6 @@
 # 🧟 ZOM-MOLE HUNTER
 
-### A Simple Reflex + Utility-Based Agentic Mystery Game
+### A Simple Reflex + Utility-Based Agentic Mystery Game... 
 
 **Zom-Mole Hunter** is an interactive detective game where the player investigates a laboratory sabotage case, questions suspects, gathers evidence, solves a restricted-terminal security challenge, and ultimately identifies the mole.
 
